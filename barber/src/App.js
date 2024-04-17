@@ -1,6 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
-=======
 import bigimg from './img/bigimg.webp'
 import img10 from './img/img10.jpg'
 import img1 from './img/img1.png'
@@ -13,7 +11,6 @@ import img7 from './img/img7.jpg'
 import img8 from './img/img8.jpg'
 import img9 from './img/img9.jpg'
 
->>>>>>> c741b7f9321ef3e7b9b4a94571685fe7c81784da
 function App() {
   
   return (
