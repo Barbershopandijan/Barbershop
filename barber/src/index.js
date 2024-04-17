@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Gallery from './UI/abdulbosit.jsx'
+import Gala from './UI/Gala'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Gallery/>
+    <Gala></Gala>
     
   </React.StrictMode>
 );
