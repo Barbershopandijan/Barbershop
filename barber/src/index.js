@@ -10,10 +10,19 @@ import Shoxnurmirzo from './Ui_About/shoxnurmirzo.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Home/> */}
-    {/* <App /> */}
-    {/* <Gala/> */}
+
+    <Home/>
+    <App />
+    <Gala/>
     <Shoxnurmirzo/>
+
+    <Home/>
+
+    <App />
+    <Gallery/>
+
+    <App />
+    <Gala/>
     
   </React.StrictMode>
 );
