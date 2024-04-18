@@ -1,0 +1,38 @@
+
+.container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+footer{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+}
+.footer-rp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1000px){
+.footer-rp{
+    flex-direction: column;
+}
+.response,.response2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.response2{
+    margin-top: -100px;
+}
+}
+@media (max-width:500px){
+    
+   
+}
