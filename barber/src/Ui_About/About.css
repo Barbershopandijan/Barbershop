@@ -1,0 +1,97 @@
+.card1img{
+  max-width: 55%;
+  max-height: 550px;
+  border-radius: 20px;
+}
+.card{
+  background-color: rgba(197, 186, 186, 0.388);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+.card3{
+  max-width: 40%;
+}
+h2{
+  max-width: 80%;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: -100px;
+}
+h3{
+  font-size: 35px;
+  font-weight: 400px;
+  width:100%;
+  text-align: center  ;
+  /* margin-top: -50px; */
+  margin-bottom: 50px;
+}
+
+.btn{
+  padding: 10px 30px;
+  border-radius: 300px;
+  border: none;
+  background-color:#61dafb;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.telegram{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 15px  ;
+}
+.Insta{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 15px  ;
+}
+.i{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 220px;
+}
+@media (max-width:1300px) {
+  h2{
+    margin-top: 0px;
+  }
+  .btn{
+    padding: 10px 20px;
+  }
+  
+}
+@media (max-width:1000px) {
+  .card{
+    flex-direction: column-reverse;
+  }
+  h2{
+    margin-top: 40px;
+    font-size: 24px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card1img{
+    max-width:  100%;
+  }
+  .card3{
+    max-width: 100%;
+    text-align: center;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .contact{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
