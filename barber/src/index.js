@@ -4,14 +4,16 @@ import './index.css';
 import App from './App';
 import Home from './Home.jsx'
 import Gala from './UI/Gala';
+import Shoxnurmirzo from './Ui_About/shoxnurmirzo.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home/>
-    <App />
-    <Gala/>
+    {/* <Home/> */}
+    {/* <App /> */}
+    {/* <Gala/> */}
+    <Shoxnurmirzo/>
     
   </React.StrictMode>
 );
