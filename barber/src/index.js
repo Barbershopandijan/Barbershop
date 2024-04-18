@@ -12,16 +12,7 @@ root.render(
   <React.StrictMode>
 
     <Home/>
-    <App />
-    <Gala/>
     <Shoxnurmirzo/>
-
-    <Home/>
-
-    <App />
-    <Gallery/>
-
-    <App />
     <Gala/>
     
   </React.StrictMode>
