@@ -8,7 +8,7 @@ function Jamshid() {
 
 
      <div className='response'>
-            <div class='first mb-5'>
+            <div class='onniyo'>
         <img class='footer-img' src={Contactimg} alt="img" />
         <p>Lorem ipsum is placeholder text commonly used in the <br/> graphic print and layouts and visual mockups.</p>
         <br/>
@@ -19,7 +19,7 @@ function Jamshid() {
     <div class="second mb-5">
 
     <h3>INFORMATION</h3>
-    <br/>
+    
     <h5 class="mt-3">New Collection</h5>
     <h5 class="mt-3">About Store</h5>
     <h5 class="mt-3">Contact Us</h5>
@@ -35,8 +35,8 @@ function Jamshid() {
 
 <div className='response2'>
   <div class="second mb-4">
-    <h3>FOOTER MENU</h3>
-    <br/>
+    <h3 className='menu'> FOOTER MENU</h3>
+    
     <h5 class="mt-3">Instagram profile</h5>
     <h5 class="mt-3">New Collection</h5>
     <h5 class="mt-3">Contact Us</h5>
@@ -47,7 +47,7 @@ function Jamshid() {
   
   <div class="second mb-3">
     <h3>USEFUL LINKS</h3>
-    <br/>
+  
     <h5 class="mt-3">Instagram profile</h5>
     <h5 class="mt-3">New Collection</h5>
     <h5 class="mt-3">Contact Us</h5>
@@ -57,6 +57,7 @@ function Jamshid() {
   </div>
   </div>
         </div>
+        <p className='pppp'>a</p>
         
     </footer>
   )
