@@ -1,0 +1,142 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.barber1{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.barber{
+  margin-top: 20px;
+  margin-left: 85px;
+
+}
+
+.cardfoll{
+  display: inline-block;
+  max-width: 290px;
+  height: 420px;
+  background-color:white;
+  border-radius: 20px;
+  border: 1px grey solid;
+  transition: all 0.5s ease-in-out;
+}
+
+.card{
+  display: none;
+  max-width: 290px;
+  height: 420px;
+  background-color:white;
+  border-radius: 20px;
+  border: 1px grey solid;
+  transition: all 0.5s ease-in-out;
+}
+
+.card210{
+  width: 310px;
+  height: 430px;
+  background-color:white;
+  border-radius: 20px;
+  border: 1px grey solid;
+  transition: all 0.5s ease-in-out;
+}
+
+.cardfoll:hover{
+  box-shadow: 10px 10px 30px 20px grey;
+  border: none;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 30px 20px grey;
+  border: none;
+}
+.card1:hover{
+  box-shadow: 10px 10px 30px 20px grey;
+  border: none;
+}
+.change{
+  width: 100%;
+  margin-top: 50px;
+}
+.card1{
+  max-width: 290px;
+  height: 420px;
+  background-color:white;
+  border-radius: 20px;
+  border: 1px grey solid;
+  transition: all 0.5s ease-in-out;
+}
+.name{
+  margin-left: 80px; 
+  font-size: 30px;
+  font-weight: 600;
+}
+.famous{
+  width: 200px;
+  margin-left: 50px;
+  text-align: center;
+  color: grey;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+.b{
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  background-color:#61dafb;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 90px;
+  
+  
+}
+.b:hover{
+  box-shadow: 10px 5px 15px 5px #61dafb;
+  border: none;
+}
+
+.cap{
+  margin: 100px auto;
+  text-align: center;
+}
+
+@media (max-width:1010px) {
+.wrapper{
+  margin-top: -80px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cap{
+  margin-top: 50px;
+}
+  .card210{
+  margin: 50px auto;
+  }
+  .cardfoll{
+    display: none;
+  }
+  .card{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .card1{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} 
+

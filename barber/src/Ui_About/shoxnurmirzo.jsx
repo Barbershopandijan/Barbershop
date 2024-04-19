@@ -6,9 +6,9 @@ import Insta  from './img/insta.png'
 
 function shoxnurmirzo() {
   return (
-    <div className='i'>
+    <div className='i' id='1234'>
         <h3>About our barber shop</h3>
-      <div className="card">
+      <div className="card5">
       <div className="card3">
         <h2> Hello, welcome to our hair salon, we are proud to have new customers we are waiting for your arrival</h2>
         <p>Our barber shop has all kinds of hairstyles, come and try them yourself, and the prices are affordable. Our barber shop is designed for men, there are all the amenities here, samples of our work are shown in this gallery.</p> 
@@ -21,7 +21,7 @@ function shoxnurmirzo() {
       </div> 
 
       </div>
-      <img src={About} alt="Aboutimage" className='card1img'/>
+      <img src={About} alt="Aboutimage" className='card1imgi'/>
 
       </div>
       

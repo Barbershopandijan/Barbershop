@@ -13,7 +13,7 @@ import img9 from './img/img9.jpg'
 
 function Gala() {
   return (
-    <div className="App">
+    <div className="App" id='Gala'>
 
     <h1 className='first-title'>Our Traditional Barber Shop</h1>
 

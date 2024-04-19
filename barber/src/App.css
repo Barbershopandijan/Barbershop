@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+*{
+  
+  scroll-behavior: smooth;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -91,52 +93,52 @@
 
 .img1:hover{
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img2:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img3:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img4:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img5:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img6:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img7:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img8:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img9:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img10:hover {
   transform: scale(1.1);
-  transition: all 0.8s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .img2 {

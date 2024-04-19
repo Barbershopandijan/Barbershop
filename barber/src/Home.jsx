@@ -5,7 +5,7 @@ import '../src/Home.css'
 
 function Home() {
   return (
-    <header>
+    <header id='home'>
 <div class="container">
  <div class="header-inner">
   <div class="logo-box">
@@ -13,10 +13,10 @@ function Home() {
       <img className='logoimg' src={Logo} alt="Site logo" />
        </a>
         <ul class="list">
-         <li class="list-item"><a href="#" class="list-link"> Home </a></li>
-         <li class="list-item"><a href="#" class="list-link"> About us  </a></li>
-         <li class="list-item"><a href="#" class="list-link"> Service </a></li>
-         <li class="list-item"><a href="#" class="list-link"> Gallary </a></li>
+         <li class="list-item"><a href="#home" class="list-link"> Home </a></li>
+         <li class="list-item"><a href="#1234" class="list-link"> About us  </a></li>
+         <li class="list-item"><a href="#Gala" class="list-link"> Gallary </a></li>
+         <li class="list-item"><a href="#Servise" class="list-link"> Service </a></li>
          <li class="list-item"><a href="#" class="list-link"> Contact </a></li>
           </ul>
        </div> 
